@@ -1,0 +1,74 @@
+body {
+    background-color: hsl(0, 0%, 8%);
+    max-width: 1440px;
+    min-height: 960px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 14px;
+    font-family: Inter-VariableFont_slnt\,wght;
+}
+
+.card {
+    background-color: #1f1f1f;
+    width: 385px;
+    height: 615px;
+    color: white;
+    border-radius: 10px;
+}
+
+img {
+    width: 90px;
+    border-radius: 100%;
+    margin-top: 36px;
+}
+
+#re {
+    background-color: #333333;
+    height: 45px;
+    width: 300px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-left: 42px;
+    margin-right: 42px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#re :hover {
+    background-color:hsl(75, 94%, 57%);
+    color: black;
+}
+
+#re p {
+    padding: 12px;
+    font-weight: 700;
+}
+
+.pc {
+    margin-top: 16px;
+}
+
+h2 {
+    margin: 30px auto auto 0px;
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.quo {
+    color: rgba(255, 255, 255, 0.676);
+    margin: 30px auto 25px auto ;
+}
+
+.city {
+    color: hsl(75, 94%, 57%);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: Inter-VariableFont_slnt\,wght;
+    src: local(Inter-VariableFont_slnt\,wght), url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf), format(.ttf);
+}
