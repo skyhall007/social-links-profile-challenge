@@ -70,5 +70,5 @@ h2 {
 
 @font-face {
     font-family: Inter-VariableFont_slnt\,wght;
-    src: local(Inter-VariableFont_slnt\,wght), url(/assets/fonts/Inter-VariableFont_slnt\,wght.ttf), format(.ttf);
+    src: local(Inter-VariableFont_slnt\,wght), url(assets/fonts/Inter-VariableFont_slnt\,wght.ttf), format(.ttf);
 }
