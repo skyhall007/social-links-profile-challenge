@@ -72,3 +72,73 @@ h2 {
     font-family: 'Inter-VariableFont_slnt,wght';
     src: local('Inter-VariableFont_slnt,wght'), url('assets/fonts/Inter-VariableFont_slnt,wght.ttf') format('truetype');
 }
+
+@media screen and (max-width: 600px) {
+    body {
+        min-height: auto;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    #re {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .quo {
+        margin: 20px auto 15px auto;
+    }
+
+    .city {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    body {
+        min-height: auto;
+    }
+
+    .card {
+        width: 90%;
+        height: auto;
+    }
+
+    img {
+        width: 70px;
+        margin-top: 20px;
+    }
+
+    #re {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+    }
+
+    h2 {
+        font-size: 20px;
+    }
+
+    .quo {
+        margin: 20px auto 15px auto;
+    }
+
+    .city {
+        font-size: 12px;
+    }
+}
